@@ -50,7 +50,7 @@ This repository contains the analysis of NYC Taxi Trip Data as part of a case st
   https://lookerstudio.google.com/s/gK7UU2zudtY
 
 ### 5. Repository Structure
-- **BI/: Contains a PDF from the visualization built in Looker Studio, and actionable items to optimize operations during off-peak season
+- **BI/: Contains a PDF from the visualization built in Looker Studio, and actionable items to optimize operations during off-peak season**
 - **images/: Contains images from the sql src code and the data warehouse.**
 - **src/: Contains Python scripts for data cleaning, exporting to CSV, and loading data into Snowflake.**
-- **sql/: Contains SQL scripts for datawarehouse setup, creating tables and performing data analysis in Snowflake.**
+- **sql/: Contains SQL scripts for data warehouse setup, creating tables and performing data analysis in Snowflake.**
