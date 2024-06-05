@@ -47,5 +47,6 @@ This repository contains the analysis of NYC Taxi Trip Data as part of a case st
 - **Visualize average fare amount and trip distance by time of day, peak hours for taxi usage, and the percentage of airport trips.**
 
 ### 5. Repository Structure
+- **images/: Contains images from the sql src code and the data warehouse.**
 - **src/: Contains Python scripts for data cleaning, exporting to CSV, and loading data into Snowflake.**
 - **sql/: Contains SQL scripts for datawarehouse setup, creating tables and performing data analysis in Snowflake.**
