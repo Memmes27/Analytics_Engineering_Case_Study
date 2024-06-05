@@ -40,7 +40,8 @@ This repository contains the analysis of NYC Taxi Trip Data as part of a case st
       EXTRACT(HOUR FROM tpep_pickup_datetime)
   ORDER BY 
       pickup_hour;
-  
+  ```
+
 ### 4. Visualizing Data in Looker Studio
 - **Create visualizations in Looker Studio**:
 - **Create a new report and add data visualizations based on the tables created in Snowflake.**
