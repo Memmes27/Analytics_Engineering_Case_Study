@@ -44,9 +44,9 @@ This repository contains the analysis of NYC Taxi Trip Data as part of a case st
 ### 4. Visualizing Data in Looker Studio
 - **Create visualizations in Looker Studio**:
 - **Create a new report and add data visualizations based on the tables created in Snowflake.**
-- **Visualize average fare amount and trip distance by time of day, peak hours for taxi usage, and the percentage of airport trips.
+- **Visualize average fare amount and trip distance by time of day, peak hours for taxi usage, and the percentage of airport trips.**
 
 ### 5. Repository Structure
-- **data/: Contains the original and cleaned data files.
-- **src/: Contains Python scripts for data cleaning, exporting to CSV, and loading data into Snowflake.
-- **sql/: Contains SQL scripts for datawarehouse setup, creating tables and performing data analysis in Snowflake.
+- **data/: Contains the original and cleaned data files.**
+- **src/: Contains Python scripts for data cleaning, exporting to CSV, and loading data into Snowflake.**
+- **sql/: Contains SQL scripts for datawarehouse setup, creating tables and performing data analysis in Snowflake.**
