@@ -11,12 +11,13 @@ This repository contains the analysis of NYC Taxi Trip Data as part of a case st
 
 ### 1. Data Acquisition and Cleaning
 - **Download the Yellow Taxi trip data for January 2022**: The data was provided as a `.parquet` file.
+  'https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page'
 - **Clean the data by handling missing values, correcting anomalies, and filtering records based on plausible trip distances and fare amounts**:
   - Handled missing values by dropping rows with any missing value.
   - Filtered anomalies based on trip distance (0 < trip_distance ≤ 100) and fare amount (0 < fare_amount ≤ 500).
   - Calculated trip duration in minutes and filtered trips with zero or negative duration or durations longer than 24 hours.
   - Filtered anomalies based on passenger count (0 < passenger_count ≤ 6).
-  - Calculated total fare including all surcharges and fees, and filtered out records where total_amount was less than total_fare.
+  - Calculated total fare including all surcharges and fees, and filtered out records where total_amount was greater than total_fare.
 
 ### 2. Loading Data into Snowflake
 - **Export the cleaned data to a CSV file** and upload it to an S3 bucket.
