@@ -1,2 +1,2 @@
-# Analytics Engineering Case_Study
+# Analytics Engineering Case Study
 Peak Design Interview - Case Study
