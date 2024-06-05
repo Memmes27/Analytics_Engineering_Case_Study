@@ -28,14 +28,13 @@ This repository contains the analysis of NYC Taxi Trip Data as part of a case st
 ### 3. Data Analysis Using SQL
 - **Calculate the average fare amount and trip distance by time of day**:
   ```sql
-  CREATE OR REPLACE TABLE my_schema.avg_fare_trip_distance_by_hour AS
   SELECT 
       EXTRACT(HOUR FROM tpep_pickup_datetime) AS pickup_hour,
       AVG(fare_amount) AS avg_fare_amount,
       AVG(trip_distance) AS avg_trip_distance,
       COUNT(*) AS trip_count
   FROM 
-      my_schema.taxi_data
+      peak_design.cab.yellow_taxi
   GROUP BY 
       EXTRACT(HOUR FROM tpep_pickup_datetime)
   ORDER BY 
