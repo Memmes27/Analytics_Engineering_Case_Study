@@ -1,0 +1,3 @@
+### Setup SnowSQl, create a Stage, and then upload the cleaned file to the internal stage
+
+- **snowsql -a xrb99565 -u SNOWFLAKEMOABDIN3 -w peakDesign_wh -d peak_design**
