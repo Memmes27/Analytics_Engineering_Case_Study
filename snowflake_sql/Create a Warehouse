@@ -1,0 +1,13 @@
+### Create a warehouse resourse
+```sql 
+  CREATE OR REPLACE WAREHOUSE peakDesign_wh
+  WITH
+  WAREHOUSE_SIZE = XSMALL
+  MAX_CLUSTER_COUNT = 3
+  AUTO_SUSPEND = 200
+  AUTO_RESUME = TRUE
+  INITIALLY_SUSPENDED = TRUE
+  COMMENT = "Warehoues for Peak Design Interview"
+  
+  USE WAREHOUSE peakDesign_wh;
+```
